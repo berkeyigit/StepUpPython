@@ -1,10 +1,3 @@
-#Pandas ile kelimeler projeye eklenecek. 
-#Bu kelimeler dizin elemanı olarak kaydedilecek. 
-#İçlerinden birisi random seçilecek.
-#Seçilen kelimeyi tahmin etmek için kelimede ki harf sayısı kadar hakkımız olacak. 
-#Yeri doğru ise yeşil ile, yeri yanlış ama kelime varsa sarı ile, kelime de girilen harf yoksa gri ile yazılacak. 
-#Komut ile cümlede olmadığını deneyimlediğimiz harfleri isteyebileceğiz.
-
 import random
 import pandas as pd
 from colorama import Fore,Style,init  
